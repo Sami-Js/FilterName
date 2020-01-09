@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box ;
+  }
+
+ body{
+   background: #212121 ;
+   color: white ;
+   display: flex; 
+   justify-content: center ;
+   align-items:  center ;
+   height:  100vh ;
+   flex-direction: column ;
+   overflow:hidden ;  
+ }
+
+
+ section {
+   width: 400px ;
+   border: 1px solid #CCC ;
+ }
+
+ section ul {
+   list-style: none;
+   transition: 5s ; 
+
+ }
+
+ section h1 {
+   transition: 5s ; 
+   background: #CCC ;
+   color: #212121 ; 
+   padding: 1px ;
+   border: 1px solid #ccc ;
+   font-size: 2.5em ;
+ }
+
+ section ul li {
+   font-size: 20px ;
+   border: 1px solid #CCC ;
+   padding: 10px 5px  ;
+   background: #DDD;
+   color: #212121 ;
+ }
+
+
+ input {
+   width: 400px ;
+   height: 30px ;
+   border-start-start-radius: 5px ;
+ }
+
+
